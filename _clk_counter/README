@@ -1,0 +1,9 @@
+Проект для Gowin FPGA - простой двоичный счетчик от частоты с входного пина.
+Старшие быти счетчика идут на 8 светодиодов платы Марсоход3GW.
+Если нажать кнопку KEY0, то счетчик сбрасывается.
+Если нажать кнопку KEY1, то счёт приостанавливается.
+
+Simple binary counter from input pin clock.
+High bits of counter shown on 8 LEDs.
+When KEY0 is pressed counter is reset.
+When KEY1 is pressed counting is suspended.
