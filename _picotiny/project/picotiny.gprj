@@ -1,0 +1,23 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9" pn="GW1NR-UV9QN88PC6/I5">gw1nr9-014</Device>
+    <FileList>
+        <File path="../gowin_ip/bootram_2kx8_0/bootram_2kx8_0.v" type="file.verilog" enable="1"/>
+        <File path="../gowin_ip/bootram_2kx8_1/bootram_2kx8_1.v" type="file.verilog" enable="1"/>
+        <File path="../gowin_ip/bootram_2kx8_2/bootram_2kx8_2.v" type="file.verilog" enable="1"/>
+        <File path="../gowin_ip/bootram_2kx8_3/bootram_2kx8_3.v" type="file.verilog" enable="1"/>
+        <File path="../gowin_ip/gowin_rpll25/gowin_rpll25.v" type="file.verilog" enable="1"/>
+        <File path="../gowin_ip/sram_2kx8/sram_2kx8.v" type="file.verilog" enable="1"/>
+        <File path="../hw/picomemory.v" type="file.verilog" enable="1"/>
+        <File path="../hw/picoperipheral.v" type="file.verilog" enable="1"/>
+        <File path="../hw/picorv32.v" type="file.verilog" enable="1"/>
+        <File path="../hw/picotiny.v" type="file.verilog" enable="1"/>
+        <File path="../hw/simpleuart.v" type="file.verilog" enable="1"/>
+        <File path="../hw/spimemio_puya.v" type="file.verilog" enable="1"/>
+        <File path="picotiny.cst" type="file.cst" enable="1"/>
+        <File path="picotiny.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
