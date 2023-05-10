@@ -7,8 +7,6 @@
     <FileList>
         <File path="src/gowin_clkdiv/gowin_clkdiv.v" type="file.verilog" enable="1"/>
         <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
-        <File path="src/gowin_rpll40/gowin_rpll40.v" type="file.verilog" enable="1"/>
-        <File path="src/gowin_rpll74/gowin_rpll74.v" type="file.verilog" enable="1"/>
         <File path="src/hdmi.v" type="file.verilog" enable="1"/>
         <File path="src/hvsync.v" type="file.verilog" enable="1"/>
         <File path="src/svo_tmds.v" type="file.verilog" enable="1"/>
