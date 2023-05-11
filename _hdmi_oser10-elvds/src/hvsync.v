@@ -18,14 +18,14 @@ module hvsync (
 
 // video signal parameters 640 x 480 at 60 Hz (non-interlaced) 
 //Pixel Clock 25,175Mhz
-parameter horz_front_porch = 8;
+parameter horz_front_porch = 16;
 parameter horz_sync = 96;
-parameter horz_back_porch = 40;
+parameter horz_back_porch = 48;
 parameter horz_addr_time = 640;
 
-parameter vert_front_porch = 2;
+parameter vert_front_porch = 10;
 parameter vert_sync = 2;
-parameter vert_back_porch = 25;
+parameter vert_back_porch = 33;
 parameter vert_addr_time = 480;
 
 reg hsync_imp = 1'b0;
