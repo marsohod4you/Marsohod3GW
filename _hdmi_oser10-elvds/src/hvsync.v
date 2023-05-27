@@ -1,3 +1,4 @@
+`include "resolution.v"
 
 ///////////////////////////////////////////////////////////////
 //module which generates video sync impulses
@@ -16,6 +17,7 @@ module hvsync (
 	output reg dbg
 	);
 
+`ifdef Res640x480
 // video signal parameters 640 x 480 at 60 Hz (non-interlaced) 
 //Pixel Clock 25,175Mhz
 parameter horz_front_porch = 16;
@@ -27,6 +29,21 @@ parameter vert_front_porch = 10;
 parameter vert_sync = 2;
 parameter vert_back_porch = 33;
 parameter vert_addr_time = 480;
+`endif
+
+`ifdef Res800x600
+// video signal parameters 800 x 600 at 60 Hz (non-interlaced) 
+//Pixel Clock 40,0Mhz
+parameter horz_front_porch = 40;
+parameter horz_sync = 128;
+parameter horz_back_porch = 88;
+parameter horz_addr_time = 800;
+
+parameter vert_front_porch = 1;
+parameter vert_sync = 4;
+parameter vert_back_porch = 23;
+parameter vert_addr_time = 600;
+`endif
 
 reg hsync_imp = 1'b0;
 always @(posedge pixel_clock or posedge reset)

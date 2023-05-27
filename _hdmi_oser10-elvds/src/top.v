@@ -1,3 +1,4 @@
+`include "resolution.v"
 
 module top(
 	input  CLK, KEY0, KEY1,
@@ -19,11 +20,22 @@ module top(
 
 wire pll_lock;
 wire pixel_clk_x5;
+
+`ifdef Res640x480
 Gowin_rPLL u_pll(
 	.clkin( CLK ),
 	.clkout( pixel_clk_x5 ),
 	.lock( pll_lock )
 	);
+`endif
+
+`ifdef Res800x600
+Gowin_rPLL200 u_pll(
+	.clkin( CLK ),
+	.clkout( pixel_clk_x5 ),
+	.lock( pll_lock )
+	);
+`endif
 
 wire pixel_clk;
 Gowin_CLKDIV u_clkdiv(
