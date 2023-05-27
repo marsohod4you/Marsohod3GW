@@ -20,13 +20,18 @@ port.open()
 plt.rcParams["figure.figsize"] = [7.50, 3.50]
 plt.rcParams["figure.autolayout"] = True
 
-adc_data = port.read( 1024 )
+adc_data = port.read( 2048 )
 
 def f(x):
 	global adc_data
+	sync_idx = 0
+	for i in range(1024) :
+		if adc_data[i]<128 and adc_data[i+10]>=128 :
+			sync_idx = i
+			break
 	y=[]
-	for i in x :
-		y.append(adc_data[i])
+	for i in range(1024) :
+		y.append(adc_data[sync_idx+i])
 	return y
 
 x = np.arange(0, 1024)
@@ -38,7 +43,11 @@ ax.set_ylabel('ADC Data')
 ax.set_ylim([0, 280])
 line1, = ax.plot(x, f(x), color='red') # Returns a tuple of line objects, thus the comma
 while 1 :
-	adc_data = port.read( 1024 )
+	#port.flush()
+	adc_data = port.read( 2048 )
+	adc_data = port.read( 2048 )
+	adc_data = port.read( 2048 )
+	adc_data = port.read( 2048 )
 	line1.set_ydata(f(x))
 	fig.canvas.draw()
 	fig.canvas.flush_events()
