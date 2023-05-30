@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NR-9" package="QFN88P" speed="6" partNumber="GW1NR-UV9QN88PC6/I5"/>
+    <FileList>
+        <File path="C:/gowin/Gowin_V1.9.8.05/IDE/ipcore/PSRAM_HS_2CH/data/PSRAM_TOP.v" type="verilog"/>
+        <File path="C:/gowin/Gowin_V1.9.8.05/IDE/ipcore/PSRAM_HS_2CH/data/psram_code.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="dsp_balance" value="1"/>
+        <Option type="include_path" value="C:/gowin/Gowin_V1.9.8.05/IDE/ipcore/PSRAM_HS_2CH/data"/>
+        <Option type="include_path" value="E:/GW/Marsohod3GW-main/_hdmi_oser10-elvds/src/psram_memory_interface_hs_2ch/temp/psram_memory_interface_hs_2ch"/>
+        <Option type="output_file" value="psram_memory_interface_hs_2ch.vg"/>
+        <Option type="output_template" value="psram_memory_interface_hs_2ch_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

@@ -1,0 +1,3 @@
+Это демонстрационный FPGA проект HDMI фреймбуффера использующего внутреннюю PSRAM память микросхемы Gowin.
+
+This project demo is HDMI framebuffer based on internal PSRAM memory in Gowin chips.
