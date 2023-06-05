@@ -57,7 +57,7 @@ begin
 	else
 		rocketY<=adc_r1;
 end
-assign LED=adc_r0;
+//assign LED=adc_r0;
 
 wire w_hsync, w_vsync, w_active;
 wire [11:0]w_pixel_cnt;
@@ -76,13 +76,14 @@ hvsync u_hvsync (
 reg [31:0]cnt;
 wire cnt_end; assign cnt_end = (cnt==32'h20000);
 reg imp = 1'b0;
+reg [7:0]score = 8'h0;
 always @(posedge pixel_clk)
 begin
 	if( cnt_end )
 		cnt<=0;
 	else
 		cnt <= cnt+1;
-	imp <= cnt_end;
+	imp <= cnt_end && (score!=8'hFF);
 end
 
 reg [10:0]X = 64;
@@ -103,6 +104,14 @@ begin
 	end
 end
 
+always @(posedge pixel_clk)
+	if(KEY0==1'b0)
+		score <= 8'h0;
+	else
+	if( X==624 && dirX==1 && imp )
+		score <= (score==0) ? 8'h3 : {score[5:0],2'b11};
+assign LED=score;
+
 reg border=1'b0;
 always @(posedge pixel_clk)
 	border <=( w_pixel_cnt<8 || w_line_cnt<8 || w_line_cnt>472 );
@@ -117,6 +126,15 @@ reg [7:0]G;
 reg [7:0]B;
 always @(posedge pixel_clk)
 begin
+/*
+	if(w_pixel_cnt>=640)
+	begin
+		R <= 8'h00;
+		G <= 8'h00;
+		B <= 8'h00;
+	end
+	else
+*/
 	if( border )
 	begin
 		R <= 8'hFF;
