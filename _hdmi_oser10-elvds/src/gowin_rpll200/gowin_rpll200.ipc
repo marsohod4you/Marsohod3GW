@@ -2,7 +2,7 @@
 ipc_version=4
 file=gowin_rpll200
 module=Gowin_rPLL200
-target_device=gw1nr9-014
+target_device=gw1nr9c-004
 type=clock_rpll
 version=1.0
 

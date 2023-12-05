@@ -1,12 +1,11 @@
 -series GW1NR
--device GW1NR-9
+-device GW1NR-9C
 -package QFN88P
 -part_number GW1NR-LV9QN88PC6/I5
 
 
 -mod_name Gowin_rPLL
 -file_name gowin_rpll
--path E:/GW/Marsohod3GW-main/_hdmi_oser10-elvds/src/gowin_rpll/
 -type PLL
 -rPll true
 -file_type vlg

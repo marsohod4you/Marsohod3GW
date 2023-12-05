@@ -1,7 +1,7 @@
-# FPGA плата Marsohod3GW, Gowin
-![Marsohod3GW2 photo](images/Marsohod3GW-small.jpg "Фото платы Марсоход3GW")
+# FPGA плата Marsohod3GW2, Gowin
+![Marsohod3GW2 photo](images/Marsohod3GW2-small.jpg "Фото платы Марсоход3GW2")
 
-Проект плата Marsohod3GW с чипом FPGA Gowin GW1NR-UV9QN88PC6/I5
+Проект плата Marsohod3GW2 с чипом FPGA Gowin GW1NR-LV9QN88PC6/I5 (дополнительная "C")
 
 Используемая нами микросхема Gowin FPGA имеет встроенные ресурсы:
 
@@ -29,4 +29,4 @@
 
 В этом репозитории есть ряд отдельных проектов ПЛИС. 
 Описание некоторых проектов для платы Марсоход3GW можно найти здесь: https://marsohod.org/projects/marsohod3gw-prj
-
+Эти описания в целом подходят и для новой платы Марсоход3GW2.

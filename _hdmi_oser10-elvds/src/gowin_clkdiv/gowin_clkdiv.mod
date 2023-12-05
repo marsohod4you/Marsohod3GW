@@ -1,5 +1,5 @@
 -series GW1NR
--device GW1NR-9
+-device GW1NR-9C
 -package QFN88P
 -part_number GW1NR-LV9QN88PC6/I5
 

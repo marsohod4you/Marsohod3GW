@@ -5,12 +5,10 @@ module top(
 	input  [7:0] FTD,
 	input  [7:0] FTC,
 	input  FTB0,
-	input  FTB2,
 	output FTB1,
-	output FTB3,
 	output ADC_CLK,
 	output [7:0] LED,
-	output [18:0] IO,
+	output [19:0] IO,
 	output       TMDS_CLK_N,
 	output       TMDS_CLK_P,
 	output [2:0] TMDS_D_N,
@@ -179,7 +177,6 @@ HDMI u_hdmi(
 	);
 
 assign FTB1 = FTB0;
-assign FTB3 = FTB2;
 assign IO = 0;
 
 endmodule

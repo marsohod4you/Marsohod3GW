@@ -1,12 +1,11 @@
 -series GW1NR
--device GW1NR-9
+-device GW1NR-9C
 -package QFN88P
--part_number GW1NR-UV9QN88PC6/I5
+-part_number GW1NR-LV9QN88PC6/I5
 
 
 -mod_name Gowin_rPLL
 -file_name gowin_rpll
--path D:/Gowin/M3GW/_clk_pll_counter/src/gowin_rpll/
 -type PLL
 -rPll true
 -file_type vlg

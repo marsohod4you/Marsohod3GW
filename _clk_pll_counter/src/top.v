@@ -5,12 +5,10 @@ module top(
 	input  [7:0] FTD,
 	input  [7:0] FTC,
 	input  FTB0,
-	input  FTB2,
 	output FTB1,
-	output FTB3,
 	output ADC_CLK,
 	output [7:0] LED,
-	output [18:0] IO,
+	output [19:0] IO,
 	output       TMDS_CLK_N,
 	output       TMDS_CLK_P,
 	output [2:0] TMDS_D_N,
@@ -39,7 +37,6 @@ assign LED = KEY0 ? cnt[28:21] : moving_bit;
 
 //Serial_RX -> Serial_TX
 assign FTB1 = FTB0;
-assign FTB3 = FTB2;
 
 assign IO = 0;
 
