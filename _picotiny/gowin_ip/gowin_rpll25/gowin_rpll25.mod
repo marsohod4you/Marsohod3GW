@@ -1,16 +1,15 @@
 -series GW1NR
--device GW1NR-9
+-device GW1NR-9C
 -package QFN88P
--part_number GW1NR-UV9QN88PC6/I5
+-part_number GW1NR-LV9QN88PC6/I5
 
 
 -mod_name Gowin_rPLL25
 -file_name gowin_rpll25
--path D:/Gowin/Projects/TangNano-9K-example/picotiny/gowin_ip/gowin_rpll25/
 -type PLL
 -rPll true
 -file_type vlg
--dev_type GW1NR-9
+-dev_type GW1NR-9C
 -dyn_idiv_sel false
 -idiv_sel 4
 -dyn_fbdiv_sel false

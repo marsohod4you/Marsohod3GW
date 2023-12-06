@@ -6,7 +6,6 @@
 
 -mod_name Gowin_CLKDIV
 -file_name gowin_clkdiv
--path D:/verilog_wb/gowin/picotiny/src/gowin_clkdiv/
 -type CLKDIV
 -file_type vlg
 -division_factor 5

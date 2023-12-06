@@ -2,7 +2,7 @@
 //All rights reserved.
 //File Title: Template file for instantiation
 //GOWIN Version: V1.9.8.09
-//Part Number: GW1NR-UV9QN88PC6/I5
+//Part Number: GW1NR-LV9QN88PC6/I5
 //Device: GW1NR-9
 //Created Time: Wed Jan 11 19:51:55 2023
 

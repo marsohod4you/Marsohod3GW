@@ -2,8 +2,8 @@
 //All rights reserved.
 //File Title: IP file
 //GOWIN Version: V1.9.8.09
-//Part Number: GW1NR-UV9QN88PC6/I5
-//Device: GW1NR-9
+//Part Number: GW1NR-LV9QN88PC6/I5
+//Device: GW1NR-9C
 //Created Time: Wed Jan 11 19:51:55 2023
 
 module Gowin_rPLL25 (clkout, lock, clkin);
@@ -58,6 +58,6 @@ defparam rpll_inst.CLKOUTD_BYPASS = "false";
 defparam rpll_inst.DYN_SDIV_SEL = 2;
 defparam rpll_inst.CLKOUTD_SRC = "CLKOUT";
 defparam rpll_inst.CLKOUTD3_SRC = "CLKOUT";
-defparam rpll_inst.DEVICE = "GW1NR-9";
+defparam rpll_inst.DEVICE = "GW1NR-9C";
 
 endmodule //Gowin_rPLL25
