@@ -1,0 +1,13 @@
+Проект для Gowin FPGA - простой двоичный счетчик.
+Входная частота 100МГц с входного пина подается на PLL и выходная частота 25МГц из PLL подается на двоичный счетчик.
+Из старших бит счетчика так же формируется 8ми битный "бегающий бит". Одна единица двигается от младшей позиции в байте в старшую и назад. И так в цикле.
+На 8 светодиодов платы Марсоход3GW подается либо регистр с "бегающим битом" либо старшие биты двоичного счетчика в зависимости нажата кнопка KEY0 или нет.
+
+Дополнительно установлен шилд 7ми сегментного индикатора.
+На нем будет отображаться значение счетчика в шестнадцатеричном виде.
+
+Simple binary counter for Gowin FPGA.
+Input clock 100MHz goes to PLL which creates output clock 25MHz coming to binary counter.
+High bits of counter also make "moving bit" register, where single "1" moves from low bit to high bit and back direction. 8 LEDs of board show either binary counter high bits or moving bit register depending on KEY0 button press.
+
+Additionally shield 7-seg indicator will display counter in hexadecimal form.
