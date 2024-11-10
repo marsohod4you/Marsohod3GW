@@ -1,8 +1,15 @@
-Проект для Gowin FPGA - простой двоичный счетчик.
-Входная частота 100МГц с входного пина подается на PLL и выходная частота 25МГц из PLL подается на двоичный счетчик.
-Из старших бит счетчика так же формируется 8ми битный "бегающий бит". Одна единица двигается от младшей позиции в байте в старшую и назад. И так в цикле.
-На 8 светодиодов платы Марсоход3GW подается либо регистр с "бегающим битом" либо старшие биты двоичного счетчика в зависимости нажата кнопка KEY0 или нет.
+Проект для Gowin FPGA - управляемый генератор синусоидальных сигналов на базе CORDIC компонента Gowin.
 
-Simple binary counter for Gowin FPGA.
-Input clock 100MHz goes to PLL which creates output clock 25MHz coming to binary counter.
-High bits of counter also make "moving bit" register, where single "1" moves from low bit to high bit and back direction. 8 LEDs of board show either binary counter high bits or moving bit register depending on KEY0 button press.
+Программа на питоне может посылать в плату специальную команду, которая устанавливает заданную частоту NCO (Numerically Controlled Oscilator):
+
+d:\altera\GOWIN\Marsohod3GW\_cordic_nco\python>d:\Programs\Python311\python.exe set-freq.py COM8 3125700
+Serial port:  COM8
+NCO freq:  3125700.0
+NCO accumulator increment (float):  0.062514
+NCO accumulator increment (hex32):  1000EAE1
+NCO accumulator increment (bin32):  00010000000000001110101011100001
+CMD packet: 83616a0010
+
+d:\altera\GOWIN\Marsohod3GW\_cordic_nco\python>
+
+Потом с помощью программы Gowin Analyzer Oscilloscope можно посмотреть получающиеся сигналы и измерить их частоту, убедиться в работоспособности проекта.
