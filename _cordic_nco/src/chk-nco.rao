@@ -1,0 +1,156 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk50" trig_type="0" storage_depth="1024" window_num="1" capture_amount="1024" trigger_pos="0" module_name="top" force_trigger_by_falling_edge="false">
+        <SignalList>
+            <Signal>q0</Signal>
+            <Signal>q1</Signal>
+            <Bus name="nco_inst/theta_i[16:0]">
+                <Signal>nco_inst/theta_i[16]</Signal>
+                <Signal>nco_inst/theta_i[15]</Signal>
+                <Signal>nco_inst/theta_i[14]</Signal>
+                <Signal>nco_inst/theta_i[13]</Signal>
+                <Signal>nco_inst/theta_i[12]</Signal>
+                <Signal>nco_inst/theta_i[11]</Signal>
+                <Signal>nco_inst/theta_i[10]</Signal>
+                <Signal>nco_inst/theta_i[9]</Signal>
+                <Signal>nco_inst/theta_i[8]</Signal>
+                <Signal>nco_inst/theta_i[7]</Signal>
+                <Signal>nco_inst/theta_i[6]</Signal>
+                <Signal>nco_inst/theta_i[5]</Signal>
+                <Signal>nco_inst/theta_i[4]</Signal>
+                <Signal>nco_inst/theta_i[3]</Signal>
+                <Signal>nco_inst/theta_i[2]</Signal>
+                <Signal>nco_inst/theta_i[1]</Signal>
+                <Signal>nco_inst/theta_i[0]</Signal>
+            </Bus>
+            <Bus name="nco_inst/angle_acc[31:0]">
+                <Signal>nco_inst/angle_acc[31]</Signal>
+                <Signal>nco_inst/angle_acc[30]</Signal>
+                <Signal>nco_inst/angle_acc[29]</Signal>
+                <Signal>nco_inst/angle_acc[28]</Signal>
+                <Signal>nco_inst/angle_acc[27]</Signal>
+                <Signal>nco_inst/angle_acc[26]</Signal>
+                <Signal>nco_inst/angle_acc[25]</Signal>
+                <Signal>nco_inst/angle_acc[24]</Signal>
+                <Signal>nco_inst/angle_acc[23]</Signal>
+                <Signal>nco_inst/angle_acc[22]</Signal>
+                <Signal>nco_inst/angle_acc[21]</Signal>
+                <Signal>nco_inst/angle_acc[20]</Signal>
+                <Signal>nco_inst/angle_acc[19]</Signal>
+                <Signal>nco_inst/angle_acc[18]</Signal>
+                <Signal>nco_inst/angle_acc[17]</Signal>
+                <Signal>nco_inst/angle_acc[16]</Signal>
+                <Signal>nco_inst/angle_acc[15]</Signal>
+                <Signal>nco_inst/angle_acc[14]</Signal>
+                <Signal>nco_inst/angle_acc[13]</Signal>
+                <Signal>nco_inst/angle_acc[12]</Signal>
+                <Signal>nco_inst/angle_acc[11]</Signal>
+                <Signal>nco_inst/angle_acc[10]</Signal>
+                <Signal>nco_inst/angle_acc[9]</Signal>
+                <Signal>nco_inst/angle_acc[8]</Signal>
+                <Signal>nco_inst/angle_acc[7]</Signal>
+                <Signal>nco_inst/angle_acc[6]</Signal>
+                <Signal>nco_inst/angle_acc[5]</Signal>
+                <Signal>nco_inst/angle_acc[4]</Signal>
+                <Signal>nco_inst/angle_acc[3]</Signal>
+                <Signal>nco_inst/angle_acc[2]</Signal>
+                <Signal>nco_inst/angle_acc[1]</Signal>
+                <Signal>nco_inst/angle_acc[0]</Signal>
+            </Bus>
+            <Bus name="sinw[16:0]">
+                <Signal>sinw[16]</Signal>
+                <Signal>sinw[15]</Signal>
+                <Signal>sinw[14]</Signal>
+                <Signal>sinw[13]</Signal>
+                <Signal>sinw[12]</Signal>
+                <Signal>sinw[11]</Signal>
+                <Signal>sinw[10]</Signal>
+                <Signal>sinw[9]</Signal>
+                <Signal>sinw[8]</Signal>
+                <Signal>sinw[7]</Signal>
+                <Signal>sinw[6]</Signal>
+                <Signal>sinw[5]</Signal>
+                <Signal>sinw[4]</Signal>
+                <Signal>sinw[3]</Signal>
+                <Signal>sinw[2]</Signal>
+                <Signal>sinw[1]</Signal>
+                <Signal>sinw[0]</Signal>
+            </Bus>
+            <Bus name="cosw[16:0]">
+                <Signal>cosw[16]</Signal>
+                <Signal>cosw[15]</Signal>
+                <Signal>cosw[14]</Signal>
+                <Signal>cosw[13]</Signal>
+                <Signal>cosw[12]</Signal>
+                <Signal>cosw[11]</Signal>
+                <Signal>cosw[10]</Signal>
+                <Signal>cosw[9]</Signal>
+                <Signal>cosw[8]</Signal>
+                <Signal>cosw[7]</Signal>
+                <Signal>cosw[6]</Signal>
+                <Signal>cosw[5]</Signal>
+                <Signal>cosw[4]</Signal>
+                <Signal>cosw[3]</Signal>
+                <Signal>cosw[2]</Signal>
+                <Signal>cosw[1]</Signal>
+                <Signal>cosw[0]</Signal>
+            </Bus>
+            <Bus name="q1cnt[7:0]">
+                <Signal>q1cnt[7]</Signal>
+                <Signal>q1cnt[6]</Signal>
+                <Signal>q1cnt[5]</Signal>
+                <Signal>q1cnt[4]</Signal>
+                <Signal>q1cnt[3]</Signal>
+                <Signal>q1cnt[2]</Signal>
+                <Signal>q1cnt[1]</Signal>
+                <Signal>q1cnt[0]</Signal>
+            </Bus>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>KEY1</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="1" counter_enable="0" counter_width="1" counter="1" countinuous="0" func="0" value0="1" value1="0" trigger="1"/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>0100010111010111</GAO_ID>
+</GAO_CONFIG>

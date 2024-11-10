@@ -1,0 +1,119 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v'
+Analyzing included file 'define.vh'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":118)
+Back to file 'D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":118)
+Analyzing included file 'D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\static_macro_define.v'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":118)
+Back to file 'D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":118)
+Analyzing included file 'arctan_radian_table.dat'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":118)
+Back to file 'D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":118)
+WARN  (EX3788) : Block identifier is required on this block("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic_wrap.v'
+Analyzing included file 'define.vh'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic_wrap.v":1)
+Back to file 'D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic_wrap.v'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic_wrap.v":1)
+Analyzing included file 'D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\static_macro_define.v'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic_wrap.v":2)
+Back to file 'D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic_wrap.v'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic_wrap.v":2)
+Compiling module 'CORDIC_Top'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic_wrap.v":3)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+NOTE  (EX0101) : Current top module is "CORDIC_Top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "x_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+WARN  (NL0002) : The module "~signed_shifter.CORDIC_Top" instantiated to "y_shifter" is swept in optimizing("D:\Gowin\Gowin_V1.9.8.09\IDE\ipcore\CORDIC\data\cordic.v":0)
+[95%] Generate netlist file "D:\altera\GOWIN\Marsohod3GW\_sw_def_radio\src\cordic\temp\Cordic\cordic.vg" completed
+Generate template file "D:\altera\GOWIN\Marsohod3GW\_sw_def_radio\src\cordic\temp\Cordic\cordic_tmp.v" completed
+[100%] Generate report file "D:\altera\GOWIN\Marsohod3GW\_sw_def_radio\src\cordic\temp\Cordic\cordic_syn.rpt.html" completed
+GowinSynthesis finish
