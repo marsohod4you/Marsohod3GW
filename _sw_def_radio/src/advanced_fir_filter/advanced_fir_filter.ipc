@@ -1,0 +1,20 @@
+[General]
+ipc_version=4
+file=advanced_fir_filter
+module=Advanced_FIR_Filter_Top
+target_device=gw1nr9c-004
+type=ad_fir
+version=1.0
+
+[Config]
+CHANNEL_N=2
+COEFFICIENT_FILE=D:\\altera\\GOWIN\\Marsohod3GW\\_sw_def_radio\\src\\mcic_fir_comp_coeff.txt
+COEFFWIDTH=16
+FACTOR_NUMBER=2
+FIR_FILTER_TYPE=fir decimator
+IDATAWIDTH=16
+LANG=0
+ODATAWIDTH=31
+Synthesis_tool=GowinSynthesis
+TAPS_NUMBER=23
+TDM_VALUE=1

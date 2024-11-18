@@ -1,0 +1,16 @@
+[General]
+ipc_version=4
+file=cic_filter
+module=CIC_Fliter_Top
+target_device=gw1nr9c-004
+type=cic_filter
+version=1.0
+
+[Config]
+FILTER_TYPE=0
+INPUT_WIDTH=16
+LANG=0
+M=2
+N=4
+R=500
+Synthesis_tool=GowinSynthesis
