@@ -1,0 +1,36 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Lite</Mode>
+    <AoCore_Lite index="0" sample_clock="cnt[7]" trig_type="0" capture_amount="4096" implemention="0" input_register_enabled="0" capture_init_data_enabled="0" module_name="top">
+        <SignalList>
+            <Signal>trigger</Signal>
+            <Signal>aedge</Signal>
+            <Bus name="overage[7:0]">
+                <Signal>overage[7]</Signal>
+                <Signal>overage[6]</Signal>
+                <Signal>overage[5]</Signal>
+                <Signal>overage[4]</Signal>
+                <Signal>overage[3]</Signal>
+                <Signal>overage[2]</Signal>
+                <Signal>overage[1]</Signal>
+                <Signal>overage[0]</Signal>
+            </Bus>
+            <Bus name="f1200[1:0]">
+                <Signal>f1200[1]</Signal>
+                <Signal>f1200[0]</Signal>
+            </Bus>
+            <Bus name="measure_cnt[7:0]">
+                <Signal>measure_cnt[7]</Signal>
+                <Signal>measure_cnt[6]</Signal>
+                <Signal>measure_cnt[5]</Signal>
+                <Signal>measure_cnt[4]</Signal>
+                <Signal>measure_cnt[3]</Signal>
+                <Signal>measure_cnt[2]</Signal>
+                <Signal>measure_cnt[1]</Signal>
+                <Signal>measure_cnt[0]</Signal>
+            </Bus>
+        </SignalList>
+    </AoCore_Lite>
+    <GAO_ID>0100011000011110</GAO_ID>
+</GAO_CONFIG>
