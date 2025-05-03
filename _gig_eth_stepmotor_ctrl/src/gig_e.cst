@@ -1,0 +1,43 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.05
+//Part Number: GW1NR-LV9QN88PC6/I5
+//Device: GW1NR-9
+//Created Time: Wed 03 15 13:45:13 2023
+
+IO_LOC "Rx_dv"  17;
+IO_LOC "Rx_D[1]"18;
+IO_LOC "Rx_D[0]"19;
+IO_LOC "Rx_D[2]"20;
+IO_LOC "Rx_D[3]"25;
+IO_LOC "Rx_clk" 26;
+IO_LOC "Tx_clk" 27;
+IO_LOC "Tx_D[0]"28;
+IO_LOC "Tx_D[1]"29;
+IO_LOC "Tx_D[2]"30;
+IO_LOC "Tx_D[3]"31;
+IO_LOC "Tx_ena" 32;
+IO_LOC "PHYRST" 33;
+IO_LOC "MDC"    34;
+IO_LOC "MDIO"   35;
+IO_LOC "XTAL"   36
+
+IO_LOC "led[7]" 87;
+IO_LOC "led[6]" 88;
+IO_LOC "led[5]" 10;
+IO_LOC "led[4]" 11;
+IO_LOC "led[3]" 13;
+IO_LOC "led[2]" 14;
+IO_LOC "led[1]" 15;
+IO_LOC "led[0]" 16;
+IO_LOC "key1" 80;
+IO_PORT "key1" PULL_MODE=UP;
+IO_LOC "key0" 79;
+IO_PORT "key0" PULL_MODE=UP;
+IO_LOC "clk" 47;
+
+IO_LOC "io19" 40;
+IO_LOC "io18" 39;
+IO_LOC "io17" 38;
+IO_LOC "io16" 37;
