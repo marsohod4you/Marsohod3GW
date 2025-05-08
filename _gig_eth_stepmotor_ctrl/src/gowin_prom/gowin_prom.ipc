@@ -1,0 +1,15 @@
+[General]
+ipc_version=4
+file=gowin_prom
+module=Gowin_pROM
+target_device=gw1nr9c-004
+type=ram_prom
+version=1.0
+
+[Config]
+DEPTH=128
+LANG=0
+MEM_FILE=D:\\altera\\GOWIN\\Marsohod3GW\\_gig_eth_stepmotor_ctrl\\src\\rom.mif
+READ=1
+RESET_MODE=true
+WIDTH=12

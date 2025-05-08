@@ -2,84 +2,69 @@
 <GAO_CONFIG>
     <Version>3.0</Version>
     <Mode>Standard</Mode>
-    <AoCore index="0" sample_clock="r_clk" trig_type="0" storage_depth="256" window_num="1" capture_amount="256" trigger_pos="16" module_name="gig_e" force_trigger_by_falling_edge="false">
+    <AoCore index="0" sample_clock="r_clk" trig_type="0" storage_depth="256" window_num="1" capture_amount="256" trigger_pos="128" module_name="gig_e" force_trigger_by_falling_edge="false">
         <SignalList>
-            <Signal>my_data_</Signal>
-            <Signal>my_packet_</Signal>
-            <Bus name="byte_count_[10:0]">
-                <Signal>byte_count_[10]</Signal>
-                <Signal>byte_count_[9]</Signal>
-                <Signal>byte_count_[8]</Signal>
-                <Signal>byte_count_[7]</Signal>
-                <Signal>byte_count_[6]</Signal>
-                <Signal>byte_count_[5]</Signal>
-                <Signal>byte_count_[4]</Signal>
-                <Signal>byte_count_[3]</Signal>
-                <Signal>byte_count_[2]</Signal>
-                <Signal>byte_count_[1]</Signal>
-                <Signal>byte_count_[0]</Signal>
+            <Bus name="pkt_reader_inst/state[3:0]">
+                <Signal>pkt_reader_inst/state[3]</Signal>
+                <Signal>pkt_reader_inst/state[2]</Signal>
+                <Signal>pkt_reader_inst/state[1]</Signal>
+                <Signal>pkt_reader_inst/state[0]</Signal>
             </Bus>
-            <Bus name="rx_data[7:0]">
-                <Signal>rx_data[7]</Signal>
-                <Signal>rx_data[6]</Signal>
-                <Signal>rx_data[5]</Signal>
-                <Signal>rx_data[4]</Signal>
-                <Signal>rx_data[3]</Signal>
-                <Signal>rx_data[2]</Signal>
-                <Signal>rx_data[1]</Signal>
-                <Signal>rx_data[0]</Signal>
+            <Bus name="wr_fifo_data[7:0]">
+                <Signal>wr_fifo_data[7]</Signal>
+                <Signal>wr_fifo_data[6]</Signal>
+                <Signal>wr_fifo_data[5]</Signal>
+                <Signal>wr_fifo_data[4]</Signal>
+                <Signal>wr_fifo_data[3]</Signal>
+                <Signal>wr_fifo_data[2]</Signal>
+                <Signal>wr_fifo_data[1]</Signal>
+                <Signal>wr_fifo_data[0]</Signal>
             </Bus>
-            <Bus name="ddr_in[7:0]">
-                <Signal>ddr_in[7]</Signal>
-                <Signal>ddr_in[6]</Signal>
-                <Signal>ddr_in[5]</Signal>
-                <Signal>ddr_in[4]</Signal>
-                <Signal>ddr_in[3]</Signal>
-                <Signal>ddr_in[2]</Signal>
-                <Signal>ddr_in[1]</Signal>
-                <Signal>ddr_in[0]</Signal>
+            <Signal>wr_fifo</Signal>
+            <Signal>pkt_reader_inst/sending</Signal>
+            <Bus name="pkt_reader_inst/send_delay[2:0]">
+                <Signal>pkt_reader_inst/send_delay[2]</Signal>
+                <Signal>pkt_reader_inst/send_delay[1]</Signal>
+                <Signal>pkt_reader_inst/send_delay[0]</Signal>
             </Bus>
-            <Signal>inst3/crc32_ok</Signal>
-            <Signal>inst3/rxdv_</Signal>
-            <Bus name="inst3/crc32_0[31:0]">
-                <Signal>inst3/crc32_0[31]</Signal>
-                <Signal>inst3/crc32_0[30]</Signal>
-                <Signal>inst3/crc32_0[29]</Signal>
-                <Signal>inst3/crc32_0[28]</Signal>
-                <Signal>inst3/crc32_0[27]</Signal>
-                <Signal>inst3/crc32_0[26]</Signal>
-                <Signal>inst3/crc32_0[25]</Signal>
-                <Signal>inst3/crc32_0[24]</Signal>
-                <Signal>inst3/crc32_0[23]</Signal>
-                <Signal>inst3/crc32_0[22]</Signal>
-                <Signal>inst3/crc32_0[21]</Signal>
-                <Signal>inst3/crc32_0[20]</Signal>
-                <Signal>inst3/crc32_0[19]</Signal>
-                <Signal>inst3/crc32_0[18]</Signal>
-                <Signal>inst3/crc32_0[17]</Signal>
-                <Signal>inst3/crc32_0[16]</Signal>
-                <Signal>inst3/crc32_0[15]</Signal>
-                <Signal>inst3/crc32_0[14]</Signal>
-                <Signal>inst3/crc32_0[13]</Signal>
-                <Signal>inst3/crc32_0[12]</Signal>
-                <Signal>inst3/crc32_0[11]</Signal>
-                <Signal>inst3/crc32_0[10]</Signal>
-                <Signal>inst3/crc32_0[9]</Signal>
-                <Signal>inst3/crc32_0[8]</Signal>
-                <Signal>inst3/crc32_0[7]</Signal>
-                <Signal>inst3/crc32_0[6]</Signal>
-                <Signal>inst3/crc32_0[5]</Signal>
-                <Signal>inst3/crc32_0[4]</Signal>
-                <Signal>inst3/crc32_0[3]</Signal>
-                <Signal>inst3/crc32_0[2]</Signal>
-                <Signal>inst3/crc32_0[1]</Signal>
-                <Signal>inst3/crc32_0[0]</Signal>
+            <Bus name="pkt_reader_inst/L1_udp_dst_port[15:0]">
+                <Signal>pkt_reader_inst/L1_udp_dst_port[15]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[14]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[13]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[12]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[11]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[10]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[9]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[8]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[7]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[6]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[5]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[4]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[3]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[2]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[1]</Signal>
+                <Signal>pkt_reader_inst/L1_udp_dst_port[0]</Signal>
+            </Bus>
+            <Bus name="udp_payload[7:0]">
+                <Signal>udp_payload[7]</Signal>
+                <Signal>udp_payload[6]</Signal>
+                <Signal>udp_payload[5]</Signal>
+                <Signal>udp_payload[4]</Signal>
+                <Signal>udp_payload[3]</Signal>
+                <Signal>udp_payload[2]</Signal>
+                <Signal>udp_payload[1]</Signal>
+                <Signal>udp_payload[0]</Signal>
             </Bus>
         </SignalList>
         <Triggers>
             <Trigger index="0">
                 <SignalList>
-                    <Signal>my_packet_</Signal>
+                    <Bus restorename="pkt_reader_inst/state[3:0]">
+                        <Signal>pkt_reader_inst/state[3]</Signal>
+                        <Signal>pkt_reader_inst/state[2]</Signal>
+                        <Signal>pkt_reader_inst/state[1]</Signal>
+                        <Signal>pkt_reader_inst/state[0]</Signal>
+                    </Bus>
                 </SignalList>
             </Trigger>
             <Trigger index="1"/>
@@ -99,7 +84,7 @@
             <Trigger index="15"/>
         </Triggers>
         <MatchUnits>
-            <MatchUnit index="0" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1" value1="0" trigger="0"/>
+            <MatchUnit index="0" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0010" value1="0000" trigger="0"/>
             <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
             <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
             <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
@@ -120,5 +105,5 @@
             <Expression>M0</Expression>
         </Expressions>
     </AoCore>
-    <GAO_ID>0001110010000100</GAO_ID>
+    <GAO_ID>0110011100110000</GAO_ID>
 </GAO_CONFIG>
